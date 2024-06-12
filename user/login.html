@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">로그인</h2>
+                        <form>
+                            <div class="mb-3">                                 <label for="login-username" class="form-label">ID</label>
+                                <input type="text" class="form-control" id="login-username" placeholder="아이디를 입력하세요" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="login-password" class="form-label">비밀번호</label>
+                                <input type="password" class="form-control" id="login-password" placeholder="비밀번호를 입력하세요" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">로그인</button>
+                            <button type="button" class="btn btn-secondary" onclick="location.href='join.html'">회원가입</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
